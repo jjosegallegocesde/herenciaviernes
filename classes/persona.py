@@ -51,3 +51,7 @@ class persona:
     @correo.setter
     def correo(self,correo):
         self.__correo=correo
+
+
+    def saludar(self):
+        print(f"Hola soy yo {self.nombre}")    
