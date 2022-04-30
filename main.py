@@ -1,8 +1,13 @@
 #Herencia en python
-from classes.Persona import Persona
+from clases.Cliente import Cliente
 
 #Objeto
-mi_nombre=Persona()
+hijo=Cliente()
+
+hijo.nombre="Juan Jose Ardila"
+hijo.saldo=70000
+hijo.clasificar()
+'''mi_nombre=Persona()
 
 
 #Utlizo el Setter
@@ -20,7 +25,7 @@ print(mi_nombre.nombre)
 print(mi_nombre.edad)
 print(mi_nombre.telefono)
 print(mi_nombre.direccion)
-print(mi_nombre.correo)
+print(mi_nombre.correo)'''
 
 
 
