@@ -60,6 +60,6 @@ class Persona:
          self.__correo=correo
 
 
-    def saludar(self):
+    def clasificar(self):
         print(f"Hola yo soy {self.nombre}")
 
